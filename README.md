@@ -32,10 +32,10 @@ cd ~/Library/Rime
 wget https://git.io/rime-install
 ```
 
-Then install `gkovacs/international` using plum:
+Then install `gkovacs/rime-international` using plum:
 
 ```bash
-bash rime-install gkovacs/international
+bash rime-install gkovacs/rime-international
 ```
 
 Finally edit `default.custom.yaml` and add `international` to the schema list:
