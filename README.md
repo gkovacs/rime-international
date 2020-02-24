@@ -21,6 +21,8 @@ This is a layout for easily writing accented characters commonly used in languag
 * `ấ` = `;jaas`
 * `č` = `;jc`
 
+Non-accented characters can be typed as usual. To type `;` itself, use `;;`
+
 ## Installing
 
 First ensure you have plum installed. For macOS this would be:
