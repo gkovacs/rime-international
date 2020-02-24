@@ -2,7 +2,24 @@
 
 ## About
 
-This is a layout for easily writing accented characters commonly used in languages written with the Latin alphabet. For example, you can write `á` by typing `;as`, `à` by typing `;af`, `ã` by typing `;ax`, `ả` by typing `;ar`, `ạ` by typing `;aj`, `ă` by typing `;aw`, `ê` by typing `;ee`, `ü` by typing `;uv`, `ű` by typing `;u;`, `ç` by typing `;c`, `ñ` by typing `;n`, `ấ` by typing `;jaas`, etc (the layout is inspired by TELEX for Vietnamese).
+This is a layout for easily writing accented characters commonly used in languages written with the Latin alphabet. For example, here's some common characters:
+
+* `á` = `;as`
+* `à` = `;af`
+* `ã` = `;ax`
+* `ả` = `;ar`
+* `ạ` = `;aj`
+* `ă` = `;aw`
+* `â` = `;aa`
+* `ê` = `;ee`
+* `ê` = `;ee`
+* `ü` = `;uv`
+* `ư` = `;uw`
+* `ű` = `;u;`
+* `ç` = `;c`
+* `ñ` = `;n`
+* `ấ` = `;jaas`
+* `č` = `;jc`
 
 ## Installing
 
