@@ -25,6 +25,7 @@ engine:
   processors:
     - ascii_composer
     - selector
+    - key_binder
     - speller
     - punctuator  # 先於 editor 才會使空格作符號上屏
     - navigator
@@ -61,3 +62,21 @@ punctuator:  # 只須定義空格一個符號
   half_shape: &punct
     ' ' : { commit: ' ' }
   full_shape: *punct
+
+key_binder:
+  bindings:
+    - {accept: "Control+Shift+1", select: .next, when: always}
+    - {accept: "Control+Shift+n", select: japanese, when: always}
+    - {accept: "Control+Shift+N", select: japanese, when: always}
+    - {accept: "Control+Shift+k", select: korean, when: always}
+    - {accept: "Control+Shift+K", select: korean, when: always}
+    - {accept: "Control+Shift+v", select: vietnamese, when: always}
+    - {accept: "Control+Shift+V", select: vietnamese, when: always}
+    - {accept: "Control+Shift+j", select: double_jyutping_extra, when: always}
+    - {accept: "Control+Shift+J", select: double_jyutping_extra, when: always}
+    - {accept: "Control+Shift+p", select: td_pinyin_flypy_extra, when: always}
+    - {accept: "Control+Shift+P", select: td_pinyin_flypy_extra, when: always}
+    - {accept: "Control+Shift+l", select: international, when: always}
+    - {accept: "Control+Shift+L", select: international, when: always}
+    - {accept: "F16", select: td_pinyin_flypy_extra, when: always}
+    - {accept: "F19", select: international, when: always}
