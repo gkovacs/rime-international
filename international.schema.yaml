@@ -79,4 +79,4 @@ key_binder:
     - {accept: "Control+Shift+l", select: international, when: always}
     - {accept: "Control+Shift+L", select: international, when: always}
     - {accept: "F16", select: td_pinyin_flypy_extra, when: always}
-    - {accept: "F19", select: international, when: always}
+    - {accept: "F19", select: .next, when: always}
