@@ -20,7 +20,7 @@ version: "2018.11.17"
 sort: original
 ...
 
-:	:
+:	P
 0	0
 1	1
 2	2
@@ -212,7 +212,7 @@ Z	Z
 Ư	pIw
 # vietnamese with tones but no diacritics
 ỳ	pof
-Ỳ	pof
+Ỳ	pOf
 ả	par
 Ả	pAr
 ẻ	pkr
